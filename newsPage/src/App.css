@@ -1,0 +1,180 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/*****************************
+     UPDATED NEWSLETTER SECTION
+/*****************************/
+.newsletter-signup {
+  background-color: rgb(225, 225, 225);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  max-width: 1200px;
+
+}
+
+.secNewsletter {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.mailchimp-form {
+  font-size: 1rem;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mailchimp-form input {
+  padding: 0.75rem;
+  margin-left: 60px;
+  border: 3px solid white;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 50%;
+}
+.mailchimp-form button {
+  padding: 0.75rem;
+  margin-left: 15px;
+  background-color: white;
+  color: #2b3d8e;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mailchimp-form button:hover {
+  background-color: #d9d9d9;
+}
+
+@media (min-width: 768px) {
+  .newsletter-content {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+  }
+  .mailchimp-form form {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .mailchimp-form input {
+    flex: 1;
+  }
+}
+
+.empty-message {
+  text-align: center;
+  color: #888;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/*.newsletter-signup form {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.newsletter-signup input {
+  padding: 0.75rem;
+  margin-left: 0;
+  border: 3px solid white;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 50%;
+}
+
+.newsletter-signup button {
+  padding: 0.75rem;
+  margin-left: 15px;
+  background-color: white;
+  color: #2b3d8e;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-signup button:hover {
+  background-color: #d9d9d9;
+}
+
+@media (min-width: 768px) {
+  .newsletter-signup {
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 2rem;
+  }
+  .newsletter-signup form {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .newsletter-signup input {
+    flex: 1;
+  }
+}
+
+.newsletter-signup p {
+  text-align: center;
+  color: #888;
+  font-size: 18px;
+  padding: 20px;
+}
+
+*/
